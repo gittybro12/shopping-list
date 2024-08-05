@@ -3,9 +3,12 @@ const input = document.querySelector('#inputs')
 const items = document.querySelector('#items')
 btn.addEventListener("click",()=>{
     if(input.value == ''){
-        input.style.border = "2px solid red"
+        input.style.border = "5px solid red"
     }else{
-        const li = document.createElement('li')
+        const li = 
+input.style.border = "none"
+    }else{
+ document.createElement('li')
         li.innerText = input.value
         const x = document.createElement('span')
         x.innerHTML = '\u00d7'
