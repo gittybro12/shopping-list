@@ -3,7 +3,7 @@ const input = document.querySelector('#inputs')
 const items = document.querySelector('#items')
 btn.addEventListener("click",()=>{
     if(input.value == ''){
-        alert('hello world')
+        input.style.border = "2px solid red"
     }else{
         const li = document.createElement('li')
         li.innerText = input.value
