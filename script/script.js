@@ -5,9 +5,8 @@ btn.addEventListener("click",()=>{
     if(input.value == ''){
         input.style.border = "5px solid red"
     }else{
-        const li = 
 input.style.border = "none"
-    }else{
+        const li =
  document.createElement('li')
         li.innerText = input.value
         const x = document.createElement('span')
